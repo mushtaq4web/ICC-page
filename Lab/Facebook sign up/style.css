@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(235, 229, 229);
+}
+.heading{
+    color: #0866ff;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+.sign-up{
+    margin-top: 10px;
+    margin-right: 30%;
+    margin-left: 30%;
+    border: 2px solid #dbd7d7 ;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.sign-up h2{
+    font-size: 25px;
+    text-align: center;
+    line-height: 20px;
+    padding: 10px;
+}
+.p{
+    text-align: center;
+    color: #606770;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.form{
+    border-top: 1px solid;
+    color:  #dadde1;
+}
+.name{
+    display: flex;
+    padding: 10px;
+    height:30px;
+    gap: 20px;
+    justify-content: center;
+}
+ .name input{
+    border-radius: 5px;
+    border: 1px solid #dadde1;
+    padding: 10px;
+    width: 250px;
+}
+.email input{
+    border-radius: 5px;
+    border: 1px solid #dadde1;
+    padding: 10px;
+    width:500px;
+    margin-left: 10px;
+}
+.pass input{
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 1px solid #dadde1;
+    padding: 10px;
+    width:500px;
+    margin-left: 10px;
+}
+.dob h3{
+    color: #606770;
+    margin: 10px;
+}
+.dob select{
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 1px solid #dadde1;
+    padding: 10px;
+    width:160px;
+    margin-left: 10px;
+}
+
+.gender h3{
+    color: #606770;
+    margin: 10px;
+
+}
+.gender input{
+   width: 100px;
+   height: 10px;
+   margin-bottom: 20px;
+}
+.female{
+    display: inline-block;
+    width: 120px;
+    margin: 10px;
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+}
+.Gender{
+    margin: 10px;
+    color: #606770;
+}
+.footer{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+.btn button{
+    margin-top: 10px;
+    width: 30%;
+    padding: 10px;
+    background-color: #0866ff;
+    border-radius: 7px;
+    border: 1px solid #0866ff ;
+    color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: #083e93;
+}
+.anchor a{
+    font-size: 20px;
+    text-decoration: none;
+}
